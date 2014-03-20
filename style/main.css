@@ -4,7 +4,7 @@ html, body {
   padding: 0;
   background: #faf8ef;
   color: #776e65;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
@@ -317,62 +317,87 @@ hr {
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
     background: #eee4da;
+    background-image: url("../im/weedle.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
     background: #ede0c8;
+    background-image: url("../im/pidgey.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    background: #f2b179; }
+    background: #bb9bbf;
+    background-image: url("../im/zubat.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    background: #f59563; }
+    background: #f8a389;
+    background-image: url("../im/magikarp.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    background: #f67c5f; }
+    background: #d8b74d;
+    background-image: url("../im/psyduck.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.07937), inset 0 0 0 1px rgba(255, 255, 255, 0.04762); }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    background: #f65e3b; }
+    background: #f65e3b;
+    background-image: url("../im/ninetales.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px;
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.15873), inset 0 0 0 1px rgba(255, 255, 255, 0.09524); }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    background: #edcf72;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+    background: #7e8c87;
+    background-image: url("../im/snorlax.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px; }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    background: #edcc61;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+    background: #fbeb76;
+    background-image: url("../im/pikachu.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px; }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+    background: #4da66d;
+    background-image: url("../im/venasaur.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px; }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+    background: #89a9d7;
+    background-image: url("../im/blastoise.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px; }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
-    @media screen and (max-width: 520px) {
-      .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+    background: #c76d5c;
+    background-image: url("../im/charizard.png");
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0px; }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
@@ -538,7 +563,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(238, 228, 218, 0.5);
+      background: rgba(199, 109, 92, 0.5);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
@@ -595,7 +620,7 @@ hr {
     margin-right: 10px;
     float: left;
     border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    background: rgba(199, 109, 92, 0.35); }
     .grid-cell:last-child {
       margin-right: 0; }
 
